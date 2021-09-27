@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #F9F9F9;
+  font: 14px 'Montserrat', sans-serif;
+}
+
+/*NECESSARY STYLES GOES BELOW */
+
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');*/
+
+.flexed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background: white;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.product-top-section {
+ height: 441px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.product-buttons {
+ height: 45px;
+ display: flex;
+}
+
+.product-buttons button {
+  width: 50%;
+  border: none;
+  font: 600 14px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.product-buttons button svg {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.product-buttons button.wishlist-btn {
+  background: #EDEDED;
+  color: black;
+}
+.product-buttons button.wishlist-btn:active {
+  background: #e8e2ff;
+}
+
+.product-buttons button.cart-btn {
+  background: #6F64F8;
+  color: white;
+}
+.product-buttons button.cart-btn:active {
+  background: #9e98ea;
+}
+
+.product-image-container {
+  height: 75%;
+}
+
+.product-image-container .product-image {
+  height: 85%;
+  object-fit: cover;
+}
+
+.rating-price-row {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+
+.rating-price-row .product-rating {
+  display: flex;
+  align-items: center;
+  padding: 7px 10px;
+  background: #6F64F8;
+  border-radius: 3px;
+  color: white;
+}
+
+.rating-price-row .product-rating svg {
+  width: 14px;
+  height: 14px;
+  margin-left: 4px;
+}
+
+.rating-price-row .product-price {
+  font-size: 18px;
+  color: #2C2C2C;
+}
+
+.product-description-container {
+  width: 85%;
+}
+
+.product-description-container .product-title {
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.product-description-container .product-description {
+  font-size: 12px;
+}
