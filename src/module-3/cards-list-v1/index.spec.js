@@ -49,4 +49,3 @@ describe('CardsList', () => {
     expect(cardsList.element).not.toBeInTheDocument();
   });
 });
-
